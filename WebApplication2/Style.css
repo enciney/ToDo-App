@@ -1,0 +1,73 @@
+﻿.arrow-down:after,.arrow-up:after{
+ content: ' ';
+ left: 3px;
+ border: 8px solid transparent;
+}
+
+.arrow-down:after{
+     font-family: "Glyphicons Halflings";
+    content: "\e252"; 
+
+
+}
+
+.arrow-up:after{
+     font-family: "Glyphicons Halflings";
+    content: "\e253";
+    
+
+
+}
+
+.arrow-down,.arrow-up{
+ padding-right: 10px;
+}
+
+
+.low {
+    background-color:green;
+}
+
+.medium {
+    background-color:gold;
+   
+}
+
+.high {
+    background-color:red;
+}
+
+
+.choosed {
+    background-color:grey;
+    color: orange;
+    font-weight:bold;
+    font-family: "Glyphicons Halflings";
+    content: "\e253";
+
+}
+
+
+.nonChoosed {
+    background-color:white;
+    
+    
+
+}
+tr:nth-child(even) {
+    /*background-color: #dddddd;*/
+}
+
+th,td {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+    height:30%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+
+

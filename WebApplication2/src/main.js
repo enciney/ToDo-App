@@ -1,5 +1,5 @@
-﻿var app = angular.module("TodoApp", ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'ngCsv']);
-app.controller("todoController", function ($uibModal, $scope, $http) {
+﻿var app = angular.module("TodoApp", ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'ngCsv', 'ngCookies']);
+app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
     $scope.headData = {
         userID: "userID",
@@ -8,9 +8,9 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
         completed: "COMPLETED",
         priority: "PRIORITY"
     }
-
+    
     $scope.column = 'title'; // column to sort
-    $scope.filteredItems = [];  // filtered items 
+    $scope.filteredItems = [];  // searched items
     $scope.choosedRows = [];   //  Choosed row/s for multiple choose
 
     $scope.reverse = false;  // sort ordering (Ascending or Descending). Set true for desending
@@ -18,6 +18,107 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
     getData(); // refreshing data
     $scope.todos = []; // all todo data
     $scope.prioritySet = 'None';
+
+    // #region cookies and filter
+    $scope.clearFilterOn = 0;
+    $scope.searchSmth = $cookies.get('searchSmth'); // search box
+    $scope.completeArr = ["TRUE", "FALSE"];
+    $scope.completePri = ["NONE", "LOW", "MEDIUM", "HIGH"];
+    $scope.comparision = [">","<=","=","!="];
+    $scope.filterCompareID;   // comparation translation
+    $scope.filterIDvalue;  //  filtered ID value
+    $scope.filterComp = $cookies.get('filterComp'); // filtered Completed value
+    $scope.filterPri = $cookies.get('filterPri');; // filtered Priority value
+    $scope.filtered = changeFilter(); // filtered data
+    $scope.cookieFunct = function () {      
+        $cookies.put("searchSmth", $scope.searchSmth);
+        $cookies.put("filterComp", $scope.filterComp);
+        $cookies.put("filterPri", $scope.filterPri);
+        $cookies.put("$clearFilterOn", 0);
+    }
+    function changeFilter()
+    {
+        var clearOn = $cookies.get('clearFilterOn');
+        
+        if (clearOn == 0) {    
+            return  $scope.filtered = {
+                "completed": $scope.filterComp,
+                "priority": $scope.filterPri
+                
+             }
+        }
+        else
+            return $scope.filtered = {};
+    }
+
+
+    $scope.idFilter = function ()
+    {
+        var temp = [];
+        var arr = $scope.filteredItems;
+        for (i = 0 ; i < arr.length  ; i++) {
+            if (arr[i].ID > 190)
+                temp.push(arr[i]);
+
+        }
+        return temp;
+
+    }
+
+    //  return $scope.filtered = getComparableData(filterTemp, $scope.filterIDvalue, $scope.filterCompareID);
+    function getComparableData(arr,value,comparable) {
+        var filteredData = [];
+        alert(arr.length);
+        for (i = 0 ; i < arr.length  ; i++) {
+            switch (comparable) {
+                case ">":
+                    if(arr[i].ID > value)
+                        filteredData.push(arr[i])
+                    break;
+                case "<=":
+                    if (arr[i].ID <= value)
+                        filteredData.push(arr[i])
+                    break;
+                case "!=":
+                    if (arr[i].ID != value)
+                        filteredData.push(arr[i])
+                    break;
+                case "=":
+                    if (arr[i].ID == value)
+                        filteredData.push(arr[i])
+                    break;
+                    if (comparable == "=")
+                        alert(filteredData[0].ID);
+
+            }
+
+        }
+        
+
+        return filteredData;
+       
+    }
+
+    $scope.filterData = function ()
+    {
+        $cookies.put("clearFilterOn", 0);
+        changeFilter();
+        
+    }
+
+    $scope.clearFilter = function ()
+    {
+        $scope.filtered = {};
+        $scope.$clearFilterOn = 1
+        $cookies.put("clearFilterOn", 1);
+    }
+
+
+
+    // #endregion cookies and filter
+       
+    
+    
 
     //#region POPUP-MODAL
     var $popup = this;
@@ -58,10 +159,9 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
 
         var choosedData = getChoosedTodos();
         var filt = $scope.filteredItems;
-        if (filt.lenght <= 0)
-            alert("FALSE SIZE");
-        else
-            alert($scope.filteredItems.length);
+        if (filt.length <= 0)
+            alert("Length lower than 0");
+        
         return choosedData;
     }
 
@@ -131,7 +231,7 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
 
         var deleted = [];
         for (i = 0 ; i < $scope.choosedRows.length ; i++) {
-            alert($scope.choosedRows[i]);
+           
             deleted.push($scope.choosedRows[i]);
 
         }
@@ -181,6 +281,19 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
             $scope.choosedRows.push(id);
         }
 
+    }
+
+    $scope.buttonClass = function ()
+    {
+        var priority = $scope.prioritySet;
+        if (priority == 'LOW')
+            return 'low';
+        else if (priority == 'MEDIUM')
+            return 'medium';
+        else if (priority == 'HIGH')
+            return 'high';
+
+        
     }
 
     $scope.chooseClass = function (id) {
@@ -302,8 +415,7 @@ app.controller("todoController", function ($uibModal, $scope, $http) {
             data: {}
         }).then(function (response, status) {
             $scope.todos = response.data.d;
-            for (i = 0 ; i < $scope.todos.lenght; i++)
-                $scope.todos[i].ID = parseInt($scope.todos[i].ID,1000);
+            
         });
     }
 
@@ -363,6 +475,7 @@ app.controller('PopUpCtrl', function ($uibModalInstance, viewedData, header) {
 
 // for searching and filtering data
 app.filter('searchFor', function () {
+    
     return function (arr, searchString) {
         if (!searchString) {
             return arr;
@@ -381,3 +494,33 @@ app.filter('searchFor', function () {
     };
 
 });
+
+
+// custom filter for ID  -- discarded because of can not use
+// the custom filter with the ng-click 
+app.filter('idFilter', function () {
+
+    return function (arr, value) {
+        
+        if (!value) {
+            return arr;
+        }
+        value = parseInt(value);
+       
+        var temp = [];
+       
+        for (i = 0 ; i < arr.length  ; i++) {
+            if (arr[i].ID > value)
+                temp.push(arr[i]);
+
+        }
+        return temp;
+
+      
+    };
+
+});
+
+
+
+

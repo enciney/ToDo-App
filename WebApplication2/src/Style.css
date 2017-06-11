@@ -54,9 +54,7 @@
     
 
 }
-tr:nth-child(even) {
-    /*background-color: #dddddd;*/
-}
+
 
 th,td {
     font-family: arial, sans-serif;

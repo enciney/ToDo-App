@@ -6,18 +6,13 @@
     <title>WebForm Ajax Test</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <script src="scripts/angular.min.js"></script>
-    <script src="scripts/angular-animate.min.js"></script>
-    <!-- animate for the pop up window-->
+    <script src="scripts/angular-animate.min.js"></script><!-- animate for the pop up window-->
+    <script src="scripts/angular-cookies.min.js"></script>
     <script src="scripts/angular-sanitize.min.js"></script>
     <script src="scripts/ui-bootstrap-tpls-2.5.0.min.js"></script>
-    <script src="scripts/ng-csv.min.js"></script>
-    <!--for exporting data-->
+    <script src="scripts/ng-csv.min.js"></script><!--for exporting data-->
     <link href="scripts/bootstrap.min.css" rel="stylesheet" />
-
-
-
     <link rel="stylesheet" type="text/css" href="Style.css">
     <script src="js/main.js"></script>
 
@@ -29,17 +24,38 @@
 
 
     <div class="btn-group">
-        <button data-ng-click="updateTodo()" class="btn btn-success btn-md">Todo Priority Set</button>
+       
         <label class="btn btn-success btn-lg" data-ng-model="prioritySet" uib-btn-radio="'LOW'">Low</label>
         <label class="btn btn-warning btn-lg" data-ng-model="prioritySet" uib-btn-radio="'MEDIUM'">Medium</label>
         <label class="btn btn-danger btn-lg" data-ng-model="prioritySet" uib-btn-radio="'HIGH'">High</label>
-        <pre>{{prioritySet || 'null'}}</pre>
+        <div>
+        <button data-ng-class = "buttonClass()" data-ng-click="updateTodo()" class="btn btn-success btn-md">Set Priority :{{prioritySet || 'null'}} </button>
+       </div> 
 
     </div>
 
 
+
+    <div id="filter">
+        <label>Completed :</label>
+       <select data-ng-model="filterComp"  data-ng-options="item for item in completeArr" data-ng-change ="cookieFunct()">
+           </select>
+         <label>Priority :</label>
+        <select data-ng-model="filterPri"  data-ng-options="item for item in completePri" data-ng-change ="cookieFunct()">
+         </select>
+       <!--  <label>ID :</label>
+           <select data-ng-model="filterCompareID"  data-ng-options="item for item in comparision" data-ng-change ="cookieFunct()">
+         </select>
+         <input type="text"  data-ng-model="filterIDvalue" placeholder="Enter id" data-ng-change ="cookieFunct()" />
+        -->
+         <button  data-ng-click="filterData()" class="btn btn-success btn-md"><i class="glyphicon glyphicon-filter"></i> Filter</button>
+         <button  data-ng-click="clearFilter()" class="btn btn-danger btn-md"><i class="glyphicon glyphicon-minus"></i>Clear Filter</button>
+     </div>
+
+        <br>
+
     <div>
-        <!--variable of the ng-model  is the searched value  -->
+       
 
 
         <!--#region Modal-->
@@ -82,11 +98,11 @@
 
 
         <label>Search Title :</label>
-        <input type="text" class="search" data-ng-model="searchSmth" data-ng-change="filterTitle()" placeholder="Enter your search terms" />
-        <button data-ng-click="removeAll()" class="btn btn-warning btn-md">Delete Choosed</button>
+        <input type="text" class="search" data-ng-model="searchSmth" placeholder="Enter your search terms" data-ng-change ="cookieFunct()" />
+        <button data-ng-click="removeAll()" class="btn btn-warning btn-md"> <i class="glyphicon glyphicon-trash"></i> Delete Choosed</button>
         <button data-ng-click="reset()" class="btn btn-danger btn-md">Reset Data</button>
-        <button class="btn btn-default" data-ng-csv="exportChoosed()" filename="todos.csv" field-separator=";" decimal-separator="." csv-header="headerTitle()">Export Choosed</button>
-        <button class="btn btn-default" data-ng-csv="exportGrid()" filename="todos.csv" field-separator=";" decimal-separator="." csv-header="headerTitle()">Export Grid</button>
+        <button class="btn btn-default " data-ng-csv="exportChoosed()" filename="todos.csv" field-separator=";" decimal-separator="." csv-header="headerTitle()">Export Choosed <i class ="glyphicon glyphicon-download-alt"> </i></button>
+        <button class="btn btn-default" data-ng-csv="exportGrid()" filename="todos.csv" field-separator=";" decimal-separator="." csv-header="headerTitle()">Export Grid <i class ="glyphicon glyphicon-download-alt"> </i></button>
         <table >
             
                 <tr>
@@ -96,9 +112,9 @@
             
             <!-- syntax is after the pipe Filter function:arguments  like a function call -->
             <!--ascending : +Attribute  descending : -Attribute -->
-            
-                <!-- searchFor:searchSmth -->
-                <tr data-ng-repeat="todo in  (filteredItems = (todos | filter:searchSmth | orderBy:column:reverse))" data-ng-click="choose(todo.ID)" data-ng-class="chooseClass(todo.ID)">
+            <!--idFilter:filterIDvalue-->  <!--custom filter for ID -->
+                <tr data-ng-repeat="todo in  (filteredItems = (todos | filter:filtered |  searchFor:searchSmth | orderBy:column:reverse))" data-ng-click="choose(todo.ID)" data-ng-class="chooseClass(todo.ID)" >
+              
                     <td>{{todo.userID}}
                     </td>
                     <td>{{todo.ID}}
@@ -110,10 +126,10 @@
                     <td>{{todo.priority}}
                     </td>
                     <td>
-                        <button data-ng-click="removeData(todo.ID)" class="btn btn-warning btn-md">Delete</button>
+                        <button data-ng-click="removeData(todo.ID)" class="btn btn-warning btn-md"> <i class="glyphicon glyphicon-trash"></i> Delete</button>
                     </td>
                     <td>
-                        <button data-ng-click="$popup.open(todo)" class="btn btn-info btn-md">View</button>
+                        <button data-ng-click="$popup.open(todo)" class="btn btn-info btn-md"><i class="glyphicon glyphicon-info-sign"></i> View</button>
                     </td>
 
 

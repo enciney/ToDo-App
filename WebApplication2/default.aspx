@@ -13,8 +13,8 @@
     <script src="scripts/ui-bootstrap-tpls-2.5.0.min.js"></script>
     <script src="scripts/ng-csv.min.js"></script><!--for exporting data-->
     <link href="scripts/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/Style.css">
+    <script src="src/main.js"></script>
 
 
 

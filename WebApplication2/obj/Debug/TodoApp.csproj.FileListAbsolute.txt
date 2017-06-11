@@ -50,6 +50,5 @@ C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\We
 C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
 C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
 C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
-C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\obj\Debug\TodoApp.csprojResolveAssemblyReference.cache
 C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

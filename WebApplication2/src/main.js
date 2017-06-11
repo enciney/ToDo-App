@@ -399,7 +399,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
             }).then(function (response, status) {
                 getData();
-                
+                alert("Data has been reseted successfully");
 
             });
         });

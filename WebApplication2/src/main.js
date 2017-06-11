@@ -51,54 +51,6 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
             return $scope.filtered = {};
     }
 
-
-    $scope.idFilter = function ()
-    {
-        var temp = [];
-        var arr = $scope.filteredItems;
-        for (i = 0 ; i < arr.length  ; i++) {
-            if (arr[i].ID > 190)
-                temp.push(arr[i]);
-
-        }
-        return temp;
-
-    }
-
-    //  return $scope.filtered = getComparableData(filterTemp, $scope.filterIDvalue, $scope.filterCompareID);
-    function getComparableData(arr,value,comparable) {
-        var filteredData = [];
-        alert(arr.length);
-        for (i = 0 ; i < arr.length  ; i++) {
-            switch (comparable) {
-                case ">":
-                    if(arr[i].ID > value)
-                        filteredData.push(arr[i])
-                    break;
-                case "<=":
-                    if (arr[i].ID <= value)
-                        filteredData.push(arr[i])
-                    break;
-                case "!=":
-                    if (arr[i].ID != value)
-                        filteredData.push(arr[i])
-                    break;
-                case "=":
-                    if (arr[i].ID == value)
-                        filteredData.push(arr[i])
-                    break;
-                    if (comparable == "=")
-                        alert(filteredData[0].ID);
-
-            }
-
-        }
-        
-
-        return filteredData;
-       
-    }
-
     $scope.filterData = function ()
     {
         $cookies.put("clearFilterOn", 0);

@@ -1,0 +1,239 @@
+2017-06-14 09:32:10,189 INFO MyAppender - get To DO data
+2017-06-14 09:32:10,199 INFO MyAppender - connection is starting...
+
+2017-06-14 09:32:10,317 INFO MyAppender - Connected
+
+2017-06-14 09:32:10,321 INFO MyAppender - get Todo function started
+2017-06-14 09:32:10,324 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:32:10,375 INFO MyAppender - ordered successfully
+2017-06-14 09:32:10,385 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:32:10,387 INFO MyAppender - connection is closing...
+
+2017-06-14 09:32:10,390 INFO MyAppender - Closed
+
+2017-06-14 09:33:43,550 INFO MyAppender - get To DO data
+2017-06-14 09:33:43,553 INFO MyAppender - connection is starting...
+
+2017-06-14 09:33:43,556 INFO MyAppender - Connected
+
+2017-06-14 09:33:43,559 INFO MyAppender - get Todo function started
+2017-06-14 09:33:43,561 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:33:43,576 INFO MyAppender - ordered successfully
+2017-06-14 09:33:43,579 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:33:43,582 INFO MyAppender - connection is closing...
+
+2017-06-14 09:33:43,586 INFO MyAppender - Closed
+
+2017-06-14 09:39:19,052 INFO MyAppender - get To DO data
+2017-06-14 09:39:19,055 INFO MyAppender - connection is starting...
+
+2017-06-14 09:39:19,058 INFO MyAppender - Connected
+
+2017-06-14 09:39:19,061 INFO MyAppender - get Todo function started
+2017-06-14 09:39:19,064 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:39:19,082 INFO MyAppender - ordered successfully
+2017-06-14 09:39:19,085 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:39:19,088 INFO MyAppender - connection is closing...
+
+2017-06-14 09:39:19,092 INFO MyAppender - Closed
+
+2017-06-14 09:39:21,375 INFO MyAppender - get To DO data
+2017-06-14 09:39:21,379 INFO MyAppender - connection is starting...
+
+2017-06-14 09:39:21,382 INFO MyAppender - Connected
+
+2017-06-14 09:39:21,386 INFO MyAppender - get Todo function started
+2017-06-14 09:39:21,394 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:39:21,411 INFO MyAppender - ordered successfully
+2017-06-14 09:39:21,415 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:39:21,426 INFO MyAppender - connection is closing...
+
+2017-06-14 09:39:21,430 INFO MyAppender - Closed
+
+2017-06-14 09:39:22,743 INFO MyAppender - get To DO data
+2017-06-14 09:39:22,747 INFO MyAppender - connection is starting...
+
+2017-06-14 09:39:22,750 INFO MyAppender - Connected
+
+2017-06-14 09:39:22,753 INFO MyAppender - get Todo function started
+2017-06-14 09:39:22,757 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:39:22,765 INFO MyAppender - ordered successfully
+2017-06-14 09:39:22,769 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:39:22,773 INFO MyAppender - connection is closing...
+
+2017-06-14 09:39:22,778 INFO MyAppender - Closed
+
+2017-06-14 09:39:24,014 INFO MyAppender - get To DO data
+2017-06-14 09:39:24,017 INFO MyAppender - connection is starting...
+
+2017-06-14 09:39:24,022 INFO MyAppender - Connected
+
+2017-06-14 09:39:24,026 INFO MyAppender - get Todo function started
+2017-06-14 09:39:24,030 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:39:24,038 INFO MyAppender - ordered successfully
+2017-06-14 09:39:24,044 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:39:24,048 INFO MyAppender - connection is closing...
+
+2017-06-14 09:39:24,051 INFO MyAppender - Closed
+
+2017-06-14 09:39:24,877 INFO MyAppender - get To DO data
+2017-06-14 09:39:24,881 INFO MyAppender - connection is starting...
+
+2017-06-14 09:39:24,884 INFO MyAppender - Connected
+
+2017-06-14 09:39:24,889 INFO MyAppender - get Todo function started
+2017-06-14 09:39:24,892 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:39:24,903 INFO MyAppender - ordered successfully
+2017-06-14 09:39:24,908 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:39:24,912 INFO MyAppender - connection is closing...
+
+2017-06-14 09:39:24,917 INFO MyAppender - Closed
+
+2017-06-14 09:52:10,324 INFO MyAppender - get To DO data
+2017-06-14 09:52:10,329 INFO MyAppender - connection is starting...
+
+2017-06-14 09:52:10,333 INFO MyAppender - Connected
+
+2017-06-14 09:52:10,338 INFO MyAppender - get Todo function started
+2017-06-14 09:52:10,344 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 09:52:10,355 INFO MyAppender - ordered successfully
+2017-06-14 09:52:10,360 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 09:52:10,364 INFO MyAppender - connection is closing...
+
+2017-06-14 09:52:10,370 INFO MyAppender - Closed
+
+2017-06-14 14:04:32,310 INFO MyAppender - get To DO data
+2017-06-14 14:04:32,317 INFO MyAppender - connection is starting...
+
+2017-06-14 14:04:32,322 INFO MyAppender - Connected
+
+2017-06-14 14:04:32,326 INFO MyAppender - get Todo function started
+2017-06-14 14:04:32,331 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:04:51,417 ERROR MyAppender - ORA-12570: Network Session: Unexpected packet read error
+2017-06-14 14:04:51,438 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   at OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[]& defineAccessors, Accessor[] bindAccessors, Boolean bHasReturningParams, SQLMetaData& sqlMetaData, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32& noOfRowsFetched, Int64& queryId, Int32 longFetchSize, Int64 initialLOBFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, DataUnmarshaller& dataUnmarshaller, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int64[]& rowsAffectedByArrayBind, Boolean bDefineDone, Boolean& bMoreThanOneRowAffectedByDmlWithRetClause, List`1& implicitRSList, Boolean bLOBArrayFetchRequired)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 176
+2017-06-14 14:04:51,442 INFO MyAppender - connection is closing...
+
+2017-06-14 14:04:51,450 INFO MyAppender - Closed
+
+2017-06-14 14:04:52,103 INFO MyAppender - get To DO data
+2017-06-14 14:04:52,107 INFO MyAppender - connection is starting...
+
+2017-06-14 14:04:52,968 INFO MyAppender - Connected
+
+2017-06-14 14:04:52,972 INFO MyAppender - get Todo function started
+2017-06-14 14:04:52,976 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:04:53,276 INFO MyAppender - ordered successfully
+2017-06-14 14:04:53,308 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:04:53,312 INFO MyAppender - connection is closing...
+
+2017-06-14 14:04:53,316 INFO MyAppender - Closed
+
+2017-06-14 14:04:54,020 INFO MyAppender - get To DO data
+2017-06-14 14:04:54,024 INFO MyAppender - connection is starting...
+
+2017-06-14 14:04:54,029 INFO MyAppender - Connected
+
+2017-06-14 14:04:54,034 INFO MyAppender - get Todo function started
+2017-06-14 14:04:54,038 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:04:54,061 INFO MyAppender - ordered successfully
+2017-06-14 14:04:54,066 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:04:54,071 INFO MyAppender - connection is closing...
+
+2017-06-14 14:04:54,075 INFO MyAppender - Closed
+
+2017-06-14 14:52:10,552 INFO MyAppender - get To DO data
+2017-06-14 14:52:10,577 INFO MyAppender - connection is starting...
+
+2017-06-14 14:52:10,582 INFO MyAppender - Connected
+
+2017-06-14 14:52:10,587 INFO MyAppender - get Todo function started
+2017-06-14 14:52:10,594 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:52:10,615 INFO MyAppender - ordered successfully
+2017-06-14 14:52:10,620 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:52:10,641 INFO MyAppender - connection is closing...
+
+2017-06-14 14:52:10,649 INFO MyAppender - Closed
+
+2017-06-14 14:54:36,734 INFO MyAppender - get To DO data
+2017-06-14 14:54:36,739 INFO MyAppender - connection is starting...
+
+2017-06-14 14:54:36,751 INFO MyAppender - Connected
+
+2017-06-14 14:54:36,756 INFO MyAppender - get Todo function started
+2017-06-14 14:54:36,765 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:54:36,780 INFO MyAppender - ordered successfully
+2017-06-14 14:54:36,790 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:54:36,795 INFO MyAppender - connection is closing...
+
+2017-06-14 14:54:36,800 INFO MyAppender - Closed
+
+2017-06-14 14:55:59,530 INFO MyAppender - get To DO data
+2017-06-14 14:55:59,535 INFO MyAppender - connection is starting...
+
+2017-06-14 14:55:59,540 INFO MyAppender - Connected
+
+2017-06-14 14:55:59,546 INFO MyAppender - get Todo function started
+2017-06-14 14:55:59,551 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:55:59,566 INFO MyAppender - ordered successfully
+2017-06-14 14:55:59,571 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:55:59,579 INFO MyAppender - connection is closing...
+
+2017-06-14 14:55:59,584 INFO MyAppender - Closed
+
+2017-06-14 14:57:05,694 INFO MyAppender - get To DO data
+2017-06-14 14:57:05,699 INFO MyAppender - connection is starting...
+
+2017-06-14 14:57:05,705 INFO MyAppender - Connected
+
+2017-06-14 14:57:05,710 INFO MyAppender - get Todo function started
+2017-06-14 14:57:05,715 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:57:05,743 INFO MyAppender - ordered successfully
+2017-06-14 14:57:05,748 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:57:05,753 INFO MyAppender - connection is closing...
+
+2017-06-14 14:57:05,758 INFO MyAppender - Closed
+
+2017-06-14 14:59:13,363 INFO MyAppender - get To DO data
+2017-06-14 14:59:13,369 INFO MyAppender - connection is starting...
+
+2017-06-14 14:59:13,374 INFO MyAppender - Connected
+
+2017-06-14 14:59:13,380 INFO MyAppender - get Todo function started
+2017-06-14 14:59:13,389 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 14:59:13,406 INFO MyAppender - ordered successfully
+2017-06-14 14:59:13,411 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 14:59:13,416 INFO MyAppender - connection is closing...
+
+2017-06-14 14:59:13,422 INFO MyAppender - Closed
+
+2017-06-14 15:13:39,104 INFO MyAppender - get To DO data
+2017-06-14 15:13:39,109 INFO MyAppender - connection is starting...
+
+2017-06-14 15:13:39,120 INFO MyAppender - Connected
+
+2017-06-14 15:13:39,125 INFO MyAppender - get Todo function started
+2017-06-14 15:13:39,131 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 15:13:39,169 INFO MyAppender - ordered successfully
+2017-06-14 15:13:39,176 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 15:13:39,181 INFO MyAppender - connection is closing...
+
+2017-06-14 15:13:39,188 INFO MyAppender - Closed
+
+2017-06-14 15:14:17,667 INFO MyAppender - get To DO data
+2017-06-14 15:14:17,673 INFO MyAppender - connection is starting...
+
+2017-06-14 15:14:17,678 INFO MyAppender - Connected
+
+2017-06-14 15:14:17,682 INFO MyAppender - get Todo function started
+2017-06-14 15:14:17,688 INFO MyAppender - Query : select * from  all_todos
+2017-06-14 15:14:17,699 INFO MyAppender - ordered successfully
+2017-06-14 15:14:17,704 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-06-14 15:14:17,709 INFO MyAppender - connection is closing...
+
+2017-06-14 15:14:17,714 INFO MyAppender - Closed
+

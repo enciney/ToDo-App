@@ -20,8 +20,10 @@
 
 
 </head>
-<body data-ng-app="TodoApp" data-ng-controller="todoController as $popup">
+<body data-ng-app="TodoApp" data-ng-controller="todoController as $popup" data-ng-keydown = "buttonKeydown($event)" data-ng-keyup ="buttonKeyup($event)" >
 
+
+    <div data-ng-class ="loadingClass()"></div>
 
     <div class="btn-group">
        
@@ -36,7 +38,7 @@
 
 
 
-    <div id="filter">
+    <div id="filter" >
         <label>Completed :</label>
        <select data-ng-model="filterComp"  data-ng-options="item for item in completeArr" data-ng-change ="cookieFunct()">
            </select>
@@ -113,7 +115,7 @@
             <!-- syntax is after the pipe Filter function:arguments  like a function call -->
             <!--ascending : +Attribute  descending : -Attribute -->
             <!--idFilter:filterIDvalue-->  <!--custom filter for ID -->
-                <tr data-ng-repeat="todo in  (filteredItems = (todos | filter:filtered |  searchFor:searchSmth | orderBy:column:reverse))" data-ng-click="choose(todo.ID)" data-ng-class="chooseClass(todo.ID)" >
+                <tr data-ng-repeat="todo in  (filteredItems = (todos | filter:filtered |  searchFor:searchSmth |  orderBy:column:reverse))" data-ng-click="choose(todo.ID)" data-ng-class="chooseClass(todo.ID)"  >
               
                     <td>{{todo.userID}}
                     </td>
@@ -135,8 +137,14 @@
 
 
                 </tr>
+
+                
           
         </table>
+
+        <textarea  cols="80"  rows="10" >        
+        {{filtered | json}}
+        </textarea>
     </div>
 
 </body>

@@ -1,6 +1,15 @@
-﻿var app = angular.module("TodoApp", ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'ngCsv', 'ngCookies']);
-app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
+﻿(function () {
+    'use strict';
 
+    angular.module('TodoApp', ['ui.bootstrap', 'ngCookies', 'ngAnimate', 'ngCsv'])
+    .controller('todoController', todoController)
+    .controller('PopUpCtrl', PopUpCtrl)
+    .filter('searchFor', searchFor)// for searching and filtering data
+    .filter('idFilter', idFilter);
+
+todoController.$inject = ['$uibModal', '$scope', '$http','$cookies','$timeout'];
+function todoController($uibModal, $scope, $http, $cookies,$timeout)
+{
     $scope.headData = {
         userID: "userID",
         id: "TODO ID",
@@ -8,7 +17,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
         completed: "COMPLETED",
         priority: "PRIORITY"
     }
-    
+    $scope.pageResponse = false; // page is not freeze
     $scope.column = 'title'; // column to sort
     $scope.filteredItems = [];  // searched items
     $scope.choosedRows = [];   //  Choosed row/s for multiple choose
@@ -24,53 +33,64 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
     $scope.searchSmth = $cookies.get('searchSmth'); // search box
     $scope.completeArr = ["TRUE", "FALSE"];
     $scope.completePri = ["NONE", "LOW", "MEDIUM", "HIGH"];
-    $scope.comparision = [">","<=","=","!="];
+    $scope.comparision = [">", "<=", "=", "!="];
     $scope.filterCompareID;   // comparation translation
     $scope.filterIDvalue;  //  filtered ID value
     $scope.filterComp = $cookies.get('filterComp'); // filtered Completed value
     $scope.filterPri = $cookies.get('filterPri');; // filtered Priority value
     $scope.filtered = changeFilter(); // filtered data
-    $scope.cookieFunct = function () {      
+    $scope.cookieFunct = function () {
         $cookies.put("searchSmth", $scope.searchSmth);
         $cookies.put("filterComp", $scope.filterComp);
         $cookies.put("filterPri", $scope.filterPri);
         $cookies.put("$clearFilterOn", 0);
     }
-    function changeFilter()
-    {
+
+    $scope.loadingClass = function () {
+        if ($scope.pageResponse)
+            return "loading";
+        else {
+            return "flow";
+        }
+    }
+
+
+
+    function changeFilter() {
         var clearOn = $cookies.get('clearFilterOn');
-        
-        if (clearOn == 0) {    
-            return  $scope.filtered = {
+
+        if (clearOn == 0) {
+            return $scope.filtered = {
                 "completed": $scope.filterComp,
-                "priority": $scope.filterPri
-                
-             }
+                "priority": $scope.filterPri,
+                //"title": $scope.searchSmth
+            }
         }
         else
             return $scope.filtered = {};
     }
 
-    $scope.filterData = function ()
-    {
+
+
+    $scope.filterData = function () {
         $cookies.put("clearFilterOn", 0);
         changeFilter();
-        
+
     }
 
-    $scope.clearFilter = function ()
-    {
+    $scope.clearFilter = function () {
         $scope.filtered = {};
         $scope.$clearFilterOn = 1
         $cookies.put("clearFilterOn", 1);
+
     }
 
 
 
     // #endregion cookies and filter
-       
-    
-    
+
+
+
 
     //#region POPUP-MODAL
     var $popup = this;
@@ -113,7 +133,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
         var filt = $scope.filteredItems;
         if (filt.length <= 0)
             alert("Length lower than 0");
-        
+
         return choosedData;
     }
 
@@ -182,8 +202,8 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
     $scope.removeAll = function () {
 
         var deleted = [];
-        for (i = 0 ; i < $scope.choosedRows.length ; i++) {
-           
+        for (var i = 0 ; i < $scope.choosedRows.length ; i++) {
+
             deleted.push($scope.choosedRows[i]);
 
         }
@@ -222,7 +242,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
     //#region CHOOSE
     $scope.choose = function (id) {
-
+        
         var index = $scope.choosedRows.indexOf(id);
 
         if (index > -1) {
@@ -235,8 +255,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
     }
 
-    $scope.buttonClass = function ()
-    {
+    $scope.buttonClass = function () {
         var priority = $scope.prioritySet;
         if (priority == 'LOW')
             return 'low';
@@ -245,7 +264,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
         else if (priority == 'HIGH')
             return 'high';
 
-        
+
     }
 
     $scope.chooseClass = function (id) {
@@ -269,10 +288,38 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
                 return 'high';
 
         }
+    }
 
 
+    $scope.buttonKeydown = function ($event) {
+        console.log("PRESSED SOMETHING");
+        $scope.keyCode = $event.keyCode;
+        if ($scope.keyCode == 16) {
+            console.log("shift pressed");
+
+        }
+        else if ($scope.keyCode == 17)
+            console.log("ctrl pressed");
 
     }
+
+    $scope.buttonKeyup = function ($event) {
+        console.log("PRESSED SOMETHING");
+        $scope.keyCode = $event.keyCode;
+        if ($scope.keyCode == 16){
+            $scope.keyCode = -1;
+            console.log("shift press up");
+        }
+            
+        else if ($scope.keyCode == 17) {
+
+            $scope.keyCode = -1;
+            console.log("ctrl press up ");
+        }
+          
+
+    }
+
     //#endregion CHOOSE
 
 
@@ -281,7 +328,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
         var allTodos = eval($scope.todos);
         var index = -1;
-        for (i = 0 ; i < allTodos.length ; i++) {
+        for (var i = 0 ; i < allTodos.length ; i++) {
             if (allTodos[i].ID == id) {
                 index = i;
                 return index;
@@ -295,8 +342,8 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
         var allTodos = eval($scope.todos);
         var todoIDs = $scope.choosedRows;
         var choosedTodos = [];
-        for (i = 0 ; i < todoIDs.length ; i++) {
-            for (j = 0 ; j < allTodos.length ; j++) {
+        for (var i = 0 ; i < todoIDs.length ; i++) {
+            for (var j = 0 ; j < allTodos.length ; j++) {
                 if (allTodos[j].ID == todoIDs[i]) {
                     choosedTodos.push(allTodos[j]);
                     break;
@@ -322,10 +369,10 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
 
         var allTodos = eval($scope.todos);
         var index = -1;
-        for (i = 0 ; i < $scope.choosedRows.length; i = i + 1) {
+        for (var i = 0 ; i < $scope.choosedRows.length; i = i + 1) {
 
 
-            for (j = 0 ; j < allTodos.length ; j++) {
+            for (var j = 0 ; j < allTodos.length ; j++) {
                 if (allTodos[j].ID == $scope.choosedRows[i]) {
                     index = j;
                     break;
@@ -356,7 +403,7 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
     }
 
     function getData() {
-       
+
         var post = $http({
             method: 'GET',
             url: "Default.aspx/getTodos",
@@ -367,12 +414,14 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
             data: {}
         }).then(function (response, status) {
             $scope.todos = response.data.d;
-            
+
         });
     }
 
     $scope.reset = function () {
+        $scope.pageResponse = true; 
         getAndInsertData();
+        
 
     }
 
@@ -400,15 +449,17 @@ app.controller("todoController", function ($uibModal, $scope, $http, $cookies) {
             }).then(function (response, status) {
                 getData();
                 alert("Data has been reseted successfully");
+                $scope.pageResponse = false;
 
             });
         });
     }
     //#endregion AJAX-DATA
 
-});
+}
 
-app.controller('PopUpCtrl', function ($uibModalInstance, viewedData, header) {
+PopUpCtrl.$inject = ['$uibModalInstance', 'viewedData', 'header'];
+function PopUpCtrl($uibModalInstance, viewedData, header) {
 
     var $popup = this;
     $popup.viewedData = viewedData;
@@ -423,17 +474,14 @@ app.controller('PopUpCtrl', function ($uibModalInstance, viewedData, header) {
 
 
 
-});
+}
 
-// for searching and filtering data
-app.filter('searchFor', function () {
-    
+function searchFor () {
+
     return function (arr, searchString) {
         if (!searchString) {
             return arr;
         }
-
-
 
         var result = [];
         searchString = searchString.toLowerCase();
@@ -445,34 +493,32 @@ app.filter('searchFor', function () {
         return result;
     };
 
-});
+}
 
 
 // custom filter for ID  -- discarded because of can not use
-// the custom filter with the ng-click 
-app.filter('idFilter', function () {
+// the custom filter with the ng-click
+function idFilter() {
 
     return function (arr, value) {
-        
+
         if (!value) {
             return arr;
         }
         value = parseInt(value);
-       
+
         var temp = [];
-       
-        for (i = 0 ; i < arr.length  ; i++) {
+
+        for (var i = 0 ; i < arr.length  ; i++) {
             if (arr[i].ID > value)
                 temp.push(arr[i]);
 
         }
         return temp;
 
-      
+
     };
 
-});
+}
 
-
-
-
+})();

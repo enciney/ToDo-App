@@ -1,0 +1,31 @@
+2017-11-10 12:15:51,799 INFO MyAppender - get To DO data
+2017-11-10 12:15:51,825 INFO MyAppender - connection is starting...
+
+2017-11-10 12:15:51,833 INFO MyAppender - Connected
+
+2017-11-10 12:15:51,846 INFO MyAppender - get Todo function started
+2017-11-10 12:15:51,853 INFO MyAppender - Query : select * from  all_todos
+2017-11-10 12:16:20,454 ERROR MyAppender - ORA-12570: Network Session: Unexpected packet read error
+2017-11-10 12:16:20,466 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   at OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[]& defineAccessors, Accessor[] bindAccessors, Boolean bHasReturningParams, SQLMetaData& sqlMetaData, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32& noOfRowsFetched, Int64& queryId, Int32 longFetchSize, Int64 initialLOBFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, DataUnmarshaller& dataUnmarshaller, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int64[]& rowsAffectedByArrayBind, Boolean bDefineDone, Boolean& bMoreThanOneRowAffectedByDmlWithRetClause, List`1& implicitRSList, Boolean bLOBArrayFetchRequired)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 176
+2017-11-10 12:16:20,483 INFO MyAppender - connection is closing...
+
+2017-11-10 12:16:20,504 INFO MyAppender - Closed
+
+2017-11-10 12:16:21,410 INFO MyAppender - get To DO data
+2017-11-10 12:16:21,425 INFO MyAppender - connection is starting...
+
+2017-11-10 12:16:21,503 INFO MyAppender - Connected
+
+2017-11-10 12:16:21,550 INFO MyAppender - get Todo function started
+2017-11-10 12:16:21,594 INFO MyAppender - Query : select * from  all_todos
+2017-11-10 12:16:21,628 INFO MyAppender - ordered successfully
+2017-11-10 12:16:21,655 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-11-10 12:16:21,677 INFO MyAppender - connection is closing...
+
+2017-11-10 12:16:21,724 INFO MyAppender - Closed
+

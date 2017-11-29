@@ -1,0 +1,105 @@
+2017-10-28 17:35:37,215 INFO MyAppender - get To DO data
+2017-10-28 17:35:37,390 INFO MyAppender - connection is starting...
+
+2017-10-28 17:35:38,374 INFO MyAppender - Connected
+
+2017-10-28 17:35:38,383 INFO MyAppender - get Todo function started
+2017-10-28 17:35:38,392 INFO MyAppender - Query : select * from  all_todos
+2017-10-28 17:35:38,463 INFO MyAppender - ordered successfully
+2017-10-28 17:35:38,528 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-10-28 17:35:38,537 INFO MyAppender - connection is closing...
+
+2017-10-28 17:35:38,558 INFO MyAppender - Closed
+
+2017-10-28 17:35:51,503 INFO MyAppender - connection is starting...
+
+2017-10-28 17:35:51,513 INFO MyAppender - Connected
+
+2017-10-28 17:35:51,524 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 15
+2017-10-28 17:35:51,574 INFO MyAppender - connection is closing...
+
+2017-10-28 17:35:51,579 INFO MyAppender - Closed
+
+2017-10-28 17:35:51,990 INFO MyAppender - connection is starting...
+
+2017-10-28 17:35:51,997 INFO MyAppender - Connected
+
+2017-10-28 17:35:52,004 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 151
+2017-10-28 17:35:52,047 INFO MyAppender - connection is closing...
+
+2017-10-28 17:35:52,059 INFO MyAppender - Closed
+
+2017-10-28 17:35:54,343 INFO MyAppender - connection is starting...
+
+2017-10-28 17:35:54,349 INFO MyAppender - Connected
+
+2017-10-28 17:35:54,354 INFO MyAppender - Execution query : update all_todos set priority = 'LOW' where id = 151
+2017-10-28 17:35:54,394 INFO MyAppender - connection is closing...
+
+2017-10-28 17:35:54,400 INFO MyAppender - Closed
+
+2017-10-28 17:35:54,844 INFO MyAppender - connection is starting...
+
+2017-10-28 17:35:54,851 INFO MyAppender - Connected
+
+2017-10-28 17:35:54,857 INFO MyAppender - Execution query : update all_todos set priority = 'LOW' where id = 15
+2017-10-28 17:35:54,897 INFO MyAppender - connection is closing...
+
+2017-10-28 17:35:54,905 INFO MyAppender - Closed
+
+2017-10-28 17:36:39,763 INFO MyAppender - connection is starting...
+
+2017-10-28 17:36:39,768 INFO MyAppender - Connected
+
+2017-10-28 17:36:39,778 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:39,845 INFO MyAppender - Deleted
+2017-10-28 17:36:39,850 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:39,888 INFO MyAppender - Deleted
+2017-10-28 17:36:39,893 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:39,931 INFO MyAppender - Deleted
+2017-10-28 17:36:39,937 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:39,976 INFO MyAppender - Deleted
+2017-10-28 17:36:39,982 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:40,017 INFO MyAppender - Deleted
+2017-10-28 17:36:40,024 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:36:40,063 INFO MyAppender - Deleted
+2017-10-28 17:36:40,069 INFO MyAppender - connection is closing...
+
+2017-10-28 17:36:40,076 INFO MyAppender - Closed
+
+2017-10-28 17:36:41,568 INFO MyAppender - get To DO data
+2017-10-28 17:36:41,576 INFO MyAppender - connection is starting...
+
+2017-10-28 17:36:41,585 INFO MyAppender - Connected
+
+2017-10-28 17:36:41,590 INFO MyAppender - get Todo function started
+2017-10-28 17:36:41,596 INFO MyAppender - Query : select * from  all_todos
+2017-10-28 17:36:41,632 INFO MyAppender - ordered successfully
+2017-10-28 17:36:41,645 INFO MyAppender - ordered data[0].title : illo expedita consequatur quia in
+2017-10-28 17:36:41,650 INFO MyAppender - connection is closing...
+
+2017-10-28 17:36:41,655 INFO MyAppender - Closed
+
+2017-10-28 17:40:41,225 INFO MyAppender - get To DO data
+2017-10-28 17:40:41,333 INFO MyAppender - connection is starting...
+
+2017-10-28 17:40:42,027 INFO MyAppender - Connected
+
+2017-10-28 17:40:42,035 INFO MyAppender - get Todo function started
+2017-10-28 17:40:42,041 INFO MyAppender - Query : select * from  all_todos
+2017-10-28 17:40:42,085 INFO MyAppender - ordered successfully
+2017-10-28 17:40:42,128 INFO MyAppender - ordered data[0].title : illo expedita consequatur quia in
+2017-10-28 17:40:42,136 INFO MyAppender - connection is closing...
+
+2017-10-28 17:40:42,150 INFO MyAppender - Closed
+
+2017-10-28 17:41:10,995 INFO MyAppender - connection is starting...
+
+2017-10-28 17:41:11,005 INFO MyAppender - Connected
+
+2017-10-28 17:41:11,013 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-10-28 17:41:11,112 INFO MyAppender - Deleted
+2017-10-28 17:41:11,117 INFO MyAppender - connection is closing...
+
+2017-10-28 17:41:11,121 INFO MyAppender - Closed
+

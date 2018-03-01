@@ -1,0 +1,481 @@
+2018-02-05 16:21:18,721 INFO MyAppender - get To DO data
+2018-02-05 16:21:18,912 INFO MyAppender - connection is starting...
+
+2018-02-05 16:21:21,493 INFO MyAppender - Connected
+
+2018-02-05 16:21:21,502 INFO MyAppender - get Todo function started
+2018-02-05 16:21:21,508 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:21:21,671 INFO MyAppender - ordered successfully
+2018-02-05 16:21:21,727 INFO MyAppender - ordered data[0].title : delectus aut autem
+2018-02-05 16:21:21,739 INFO MyAppender - connection is closing...
+
+2018-02-05 16:21:21,783 INFO MyAppender - Closed
+
+2018-02-05 16:21:43,767 INFO MyAppender - get To DO data
+2018-02-05 16:21:43,780 INFO MyAppender - connection is starting...
+
+2018-02-05 16:21:43,824 INFO MyAppender - Connected
+
+2018-02-05 16:21:43,838 INFO MyAppender - get Todo function started
+2018-02-05 16:21:43,847 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:21:43,884 INFO MyAppender - ordered successfully
+2018-02-05 16:21:43,924 INFO MyAppender - ordered data[0].title : delectus aut autem
+2018-02-05 16:21:43,943 INFO MyAppender - connection is closing...
+
+2018-02-05 16:21:44,042 INFO MyAppender - Closed
+
+2018-02-05 16:22:04,501 INFO MyAppender - get To DO data
+2018-02-05 16:22:04,507 INFO MyAppender - connection is starting...
+
+2018-02-05 16:22:04,512 INFO MyAppender - Connected
+
+2018-02-05 16:22:04,518 INFO MyAppender - get Todo function started
+2018-02-05 16:22:04,523 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:22:04,543 INFO MyAppender - ordered successfully
+2018-02-05 16:22:04,549 INFO MyAppender - ordered data[0].title : delectus aut autem
+2018-02-05 16:22:04,556 INFO MyAppender - connection is closing...
+
+2018-02-05 16:22:04,563 INFO MyAppender - Closed
+
+2018-02-05 16:22:28,269 INFO MyAppender - connection is starting...
+
+2018-02-05 16:22:28,276 INFO MyAppender - Connected
+
+2018-02-05 16:22:28,288 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:22:28,468 INFO MyAppender - Deleted
+2018-02-05 16:22:28,476 INFO MyAppender - connection is closing...
+
+2018-02-05 16:22:28,484 INFO MyAppender - Closed
+
+2018-02-05 16:22:47,285 INFO MyAppender - connection is starting...
+
+2018-02-05 16:22:47,292 INFO MyAppender - Connected
+
+2018-02-05 16:22:47,298 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:22:47,318 INFO MyAppender - Deleted
+2018-02-05 16:22:47,322 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:22:47,341 INFO MyAppender - Deleted
+2018-02-05 16:22:47,346 INFO MyAppender - connection is closing...
+
+2018-02-05 16:22:47,353 INFO MyAppender - Closed
+
+2018-02-05 16:23:04,234 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:04,250 INFO MyAppender - Connected
+
+2018-02-05 16:23:04,372 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:23:04,410 INFO MyAppender - Deleted
+2018-02-05 16:23:04,415 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:04,420 INFO MyAppender - Closed
+
+2018-02-05 16:23:06,703 INFO MyAppender - get To DO data
+2018-02-05 16:23:06,708 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:06,714 INFO MyAppender - Connected
+
+2018-02-05 16:23:06,719 INFO MyAppender - get Todo function started
+2018-02-05 16:23:06,724 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:23:06,759 INFO MyAppender - ordered successfully
+2018-02-05 16:23:06,798 INFO MyAppender - ordered data[0].title : delectus aut autem
+2018-02-05 16:23:06,805 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:06,812 INFO MyAppender - Closed
+
+2018-02-05 16:23:11,815 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:11,820 INFO MyAppender - Connected
+
+2018-02-05 16:23:11,827 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:23:11,882 INFO MyAppender - Deleted
+2018-02-05 16:23:11,886 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:11,893 INFO MyAppender - Closed
+
+2018-02-05 16:23:31,960 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:31,967 INFO MyAppender - Connected
+
+2018-02-05 16:23:31,973 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:23:31,992 INFO MyAppender - Deleted
+2018-02-05 16:23:31,997 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:32,003 INFO MyAppender - Closed
+
+2018-02-05 16:23:34,829 INFO MyAppender - get To DO data
+2018-02-05 16:23:34,834 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:34,841 INFO MyAppender - Connected
+
+2018-02-05 16:23:34,847 INFO MyAppender - get Todo function started
+2018-02-05 16:23:34,854 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:23:35,152 INFO MyAppender - ordered successfully
+2018-02-05 16:23:35,159 INFO MyAppender - ordered data[0].title : fugiat veniam minus
+2018-02-05 16:23:35,165 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:35,171 INFO MyAppender - Closed
+
+2018-02-05 16:23:45,013 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:45,021 INFO MyAppender - Connected
+
+2018-02-05 16:23:45,040 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 3
+2018-02-05 16:23:45,060 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:45,065 INFO MyAppender - Closed
+
+2018-02-05 16:23:45,137 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:45,142 INFO MyAppender - Connected
+
+2018-02-05 16:23:45,148 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 3
+2018-02-05 16:23:45,170 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:45,175 INFO MyAppender - Closed
+
+2018-02-05 16:23:45,339 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:45,347 INFO MyAppender - Connected
+
+2018-02-05 16:23:45,354 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 3
+2018-02-05 16:23:45,372 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:45,377 INFO MyAppender - Closed
+
+2018-02-05 16:23:45,644 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:45,651 INFO MyAppender - Connected
+
+2018-02-05 16:23:45,658 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 4
+2018-02-05 16:23:45,675 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:45,680 INFO MyAppender - Closed
+
+2018-02-05 16:23:45,954 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:45,961 INFO MyAppender - Connected
+
+2018-02-05 16:23:45,967 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 4
+2018-02-05 16:23:45,992 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:45,998 INFO MyAppender - Closed
+
+2018-02-05 16:23:46,270 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:46,278 INFO MyAppender - Connected
+
+2018-02-05 16:23:46,285 INFO MyAppender - Execution query : update all_todos set priority = 'HIGH' where id = 4
+2018-02-05 16:23:46,310 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:46,317 INFO MyAppender - Closed
+
+2018-02-05 16:23:46,910 INFO MyAppender - get To DO data
+2018-02-05 16:23:46,915 INFO MyAppender - connection is starting...
+
+2018-02-05 16:23:46,921 INFO MyAppender - Connected
+
+2018-02-05 16:23:46,929 INFO MyAppender - get Todo function started
+2018-02-05 16:23:46,935 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:23:46,952 INFO MyAppender - ordered successfully
+2018-02-05 16:23:46,958 INFO MyAppender - ordered data[0].title : fugiat veniam minus
+2018-02-05 16:23:46,966 INFO MyAppender - connection is closing...
+
+2018-02-05 16:23:46,973 INFO MyAppender - Closed
+
+2018-02-05 16:29:07,179 INFO MyAppender - get To DO data
+2018-02-05 16:29:07,230 INFO MyAppender - connection is starting...
+
+2018-02-05 16:29:07,244 INFO MyAppender - Connected
+
+2018-02-05 16:29:07,256 INFO MyAppender - get Todo function started
+2018-02-05 16:29:07,275 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:29:07,320 INFO MyAppender - ordered successfully
+2018-02-05 16:29:07,329 INFO MyAppender - ordered data[0].title : fugiat veniam minus
+2018-02-05 16:29:07,338 INFO MyAppender - connection is closing...
+
+2018-02-05 16:29:07,354 INFO MyAppender - Closed
+
+2018-02-05 16:30:18,429 INFO MyAppender - connection is starting...
+
+2018-02-05 16:30:18,437 INFO MyAppender - Connected
+
+2018-02-05 16:30:18,443 INFO MyAppender - Execution query : truncate table all_todos
+2018-02-05 16:30:18,829 INFO MyAppender - connection is closing...
+
+2018-02-05 16:30:18,837 INFO MyAppender - Closed
+
+2018-02-05 16:30:18,844 INFO MyAppender - connection is starting...
+
+2018-02-05 16:30:18,852 INFO MyAppender - Connected
+
+2018-02-05 16:30:18,890 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:18,906 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:18,922 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,009 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,032 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,056 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,081 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,098 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,114 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,132 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,152 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,168 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,185 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,201 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,216 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,242 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,333 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,353 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,379 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,395 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,411 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,428 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,445 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,467 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,489 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,506 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,521 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,541 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,558 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,643 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,663 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,683 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,700 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,716 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,741 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,758 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,775 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,790 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,807 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,822 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,847 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,881 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,959 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,979 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:19,996 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,021 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,038 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,058 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,073 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,090 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,105 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,122 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,142 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,160 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,179 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,288 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,320 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,347 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,363 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,381 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,399 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,418 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,445 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,462 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,478 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,653 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,669 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,685 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,704 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,747 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,763 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,781 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,802 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,915 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,934 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,950 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,968 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:20,994 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,015 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,031 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,050 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,072 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,087 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,107 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,190 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,211 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,240 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,284 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,302 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,317 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,335 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,353 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,370 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,389 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,405 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,423 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,483 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,556 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,574 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,594 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,629 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,645 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,663 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,679 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,700 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,742 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,822 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,872 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,894 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,912 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,968 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:21,993 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,012 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,028 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,046 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,069 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,182 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,208 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,243 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,294 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,312 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,340 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,370 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,448 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,471 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,491 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,514 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,534 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,561 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,592 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,612 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,631 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,650 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,669 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,754 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,780 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,813 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,831 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,878 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,897 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,920 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:22,964 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,015 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,128 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,169 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,211 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,249 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,277 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,304 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,385 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,417 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,461 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,480 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,498 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,522 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,561 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,578 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,594 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,617 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,680 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,701 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,750 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,767 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,787 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,830 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,879 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,903 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:23,943 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,058 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,102 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,134 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,186 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,238 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,355 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,396 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,412 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,448 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,476 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,511 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,539 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,567 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,635 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,659 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,696 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,748 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,767 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,783 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,802 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,822 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,840 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,887 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,965 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:24,987 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,011 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,027 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,046 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,066 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,098 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,119 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,140 INFO MyAppender - Data has been added and commited
+2018-02-05 16:30:25,146 INFO MyAppender - connection is closing...
+
+2018-02-05 16:30:25,154 INFO MyAppender - Closed
+
+2018-02-05 16:30:27,485 INFO MyAppender - get To DO data
+2018-02-05 16:30:27,498 INFO MyAppender - connection is starting...
+
+2018-02-05 16:30:27,508 INFO MyAppender - Connected
+
+2018-02-05 16:30:27,520 INFO MyAppender - get Todo function started
+2018-02-05 16:30:27,531 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:30:27,548 INFO MyAppender - ordered successfully
+2018-02-05 16:30:27,557 INFO MyAppender - ordered data[0].title : delectus aut autem
+2018-02-05 16:30:27,564 INFO MyAppender - connection is closing...
+
+2018-02-05 16:30:27,574 INFO MyAppender - Closed
+
+2018-02-05 16:31:18,655 INFO MyAppender - connection is starting...
+
+2018-02-05 16:31:18,668 INFO MyAppender - Connected
+
+2018-02-05 16:31:18,684 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2018-02-05 16:31:18,710 INFO MyAppender - Deleted
+2018-02-05 16:31:18,771 INFO MyAppender - connection is closing...
+
+2018-02-05 16:31:18,780 INFO MyAppender - Closed
+
+2018-02-05 16:31:25,381 INFO MyAppender - connection is starting...
+
+2018-02-05 16:31:25,394 INFO MyAppender - Connected
+
+2018-02-05 16:31:25,406 INFO MyAppender - Execution query : update all_todos set priority = 'None' where id = 70
+2018-02-05 16:31:25,427 INFO MyAppender - connection is closing...
+
+2018-02-05 16:31:25,435 INFO MyAppender - Closed
+
+2018-02-05 16:31:28,793 INFO MyAppender - connection is starting...
+
+2018-02-05 16:31:28,798 INFO MyAppender - Connected
+
+2018-02-05 16:31:28,805 INFO MyAppender - Execution query : update all_todos set priority = 'MEDIUM' where id = 70
+2018-02-05 16:31:28,823 INFO MyAppender - connection is closing...
+
+2018-02-05 16:31:28,828 INFO MyAppender - Closed
+
+2018-02-05 16:31:31,708 INFO MyAppender - get To DO data
+2018-02-05 16:31:31,719 INFO MyAppender - connection is starting...
+
+2018-02-05 16:31:31,726 INFO MyAppender - Connected
+
+2018-02-05 16:31:31,735 INFO MyAppender - get Todo function started
+2018-02-05 16:31:31,742 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:31:31,750 INFO MyAppender - ordered successfully
+2018-02-05 16:31:31,757 INFO MyAppender - ordered data[0].title : quis ut nam facilis et officia qui
+2018-02-05 16:31:31,766 INFO MyAppender - connection is closing...
+
+2018-02-05 16:31:31,772 INFO MyAppender - Closed
+
+2018-02-05 16:34:47,450 INFO MyAppender - get To DO data
+2018-02-05 16:34:47,463 INFO MyAppender - connection is starting...
+
+2018-02-05 16:34:47,494 INFO MyAppender - Connected
+
+2018-02-05 16:34:47,515 INFO MyAppender - get Todo function started
+2018-02-05 16:34:47,557 INFO MyAppender - Query : select * from  all_todos
+2018-02-05 16:34:47,575 INFO MyAppender - ordered successfully
+2018-02-05 16:34:47,583 INFO MyAppender - ordered data[0].title : quis ut nam facilis et officia qui
+2018-02-05 16:34:47,600 INFO MyAppender - connection is closing...
+
+2018-02-05 16:34:47,610 INFO MyAppender - Closed
+

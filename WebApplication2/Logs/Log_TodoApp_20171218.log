@@ -1,0 +1,82 @@
+2017-12-18 16:06:00,610 INFO MyAppender - get To DO data
+2017-12-18 16:06:00,757 INFO MyAppender - connection is starting...
+
+2017-12-18 16:06:01,559 INFO MyAppender - Connected
+
+2017-12-18 16:06:01,568 INFO MyAppender - get Todo function started
+2017-12-18 16:06:01,575 INFO MyAppender - Query : select * from  all_todos
+2017-12-18 16:06:01,650 INFO MyAppender - ordered successfully
+2017-12-18 16:06:01,684 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-18 16:06:01,693 INFO MyAppender - connection is closing...
+
+2017-12-18 16:06:01,714 INFO MyAppender - Closed
+
+2017-12-18 16:40:15,436 INFO MyAppender - get To DO data
+2017-12-18 16:40:15,446 INFO MyAppender - connection is starting...
+
+2017-12-18 16:40:15,463 INFO MyAppender - Connected
+
+2017-12-18 16:40:15,480 INFO MyAppender - get Todo function started
+2017-12-18 16:40:15,490 INFO MyAppender - Query : select * from  all_todos
+2017-12-18 16:40:15,545 INFO MyAppender - ordered successfully
+2017-12-18 16:40:15,553 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-18 16:40:15,563 INFO MyAppender - connection is closing...
+
+2017-12-18 16:40:15,572 INFO MyAppender - Closed
+
+2017-12-18 16:40:26,290 INFO MyAppender - connection is starting...
+
+2017-12-18 16:40:26,299 INFO MyAppender - Connected
+
+2017-12-18 16:40:26,323 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-12-18 16:40:26,394 INFO MyAppender - Deleted
+2017-12-18 16:40:26,404 INFO MyAppender - connection is closing...
+
+2017-12-18 16:40:26,411 INFO MyAppender - Closed
+
+2017-12-18 16:40:39,402 INFO MyAppender - connection is starting...
+
+2017-12-18 16:40:39,407 INFO MyAppender - Connected
+
+2017-12-18 16:40:39,414 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-12-18 16:40:39,430 INFO MyAppender - Deleted
+2017-12-18 16:40:39,437 INFO MyAppender - connection is closing...
+
+2017-12-18 16:40:39,445 INFO MyAppender - Closed
+
+2017-12-18 16:40:42,301 INFO MyAppender - get To DO data
+2017-12-18 16:40:42,310 INFO MyAppender - connection is starting...
+
+2017-12-18 16:40:42,327 INFO MyAppender - Connected
+
+2017-12-18 16:40:42,335 INFO MyAppender - get Todo function started
+2017-12-18 16:40:42,344 INFO MyAppender - Query : select * from  all_todos
+2017-12-18 16:40:42,357 INFO MyAppender - ordered successfully
+2017-12-18 16:40:42,365 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-18 16:40:42,386 INFO MyAppender - connection is closing...
+
+2017-12-18 16:40:42,403 INFO MyAppender - Closed
+
+2017-12-18 16:44:15,820 INFO MyAppender - get To DO data
+2017-12-18 16:44:15,837 INFO MyAppender - connection is starting...
+
+2017-12-18 16:44:15,852 INFO MyAppender - Connected
+
+2017-12-18 16:44:15,867 INFO MyAppender - get Todo function started
+2017-12-18 16:44:15,876 INFO MyAppender - Query : select * from  all_todos
+2017-12-18 16:44:15,893 INFO MyAppender - ordered successfully
+2017-12-18 16:44:15,904 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-18 16:44:15,918 INFO MyAppender - connection is closing...
+
+2017-12-18 16:44:15,932 INFO MyAppender - Closed
+
+2017-12-18 16:44:23,262 INFO MyAppender - connection is starting...
+
+2017-12-18 16:44:23,268 INFO MyAppender - Connected
+
+2017-12-18 16:44:23,276 INFO MyAppender - Deletion query : delete from all_todos where id = :ID
+2017-12-18 16:44:23,291 INFO MyAppender - Deleted
+2017-12-18 16:44:23,300 INFO MyAppender - connection is closing...
+
+2017-12-18 16:44:23,309 INFO MyAppender - Closed
+

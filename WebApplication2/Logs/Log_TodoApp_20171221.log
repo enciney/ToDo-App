@@ -1,0 +1,760 @@
+2017-12-21 10:00:58,523 INFO MyAppender - get To DO data
+2017-12-21 10:00:58,538 INFO MyAppender - connection is starting...
+
+2017-12-21 10:00:58,639 INFO MyAppender - Connected
+
+2017-12-21 10:00:58,649 INFO MyAppender - get Todo function started
+2017-12-21 10:00:58,657 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 10:00:58,674 INFO MyAppender - ordered successfully
+2017-12-21 10:00:58,689 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 10:00:58,698 INFO MyAppender - connection is closing...
+
+2017-12-21 10:00:58,706 INFO MyAppender - Closed
+
+2017-12-21 10:02:10,030 INFO MyAppender - get To DO data
+2017-12-21 10:02:10,038 INFO MyAppender - connection is starting...
+
+2017-12-21 10:02:10,046 INFO MyAppender - Connected
+
+2017-12-21 10:02:10,054 INFO MyAppender - get Todo function started
+2017-12-21 10:02:10,075 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 10:02:10,091 INFO MyAppender - ordered successfully
+2017-12-21 10:02:10,100 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 10:02:10,107 INFO MyAppender - connection is closing...
+
+2017-12-21 10:02:10,115 INFO MyAppender - Closed
+
+2017-12-21 10:02:31,265 INFO MyAppender - connection is starting...
+
+2017-12-21 10:02:31,276 INFO MyAppender - Connected
+
+2017-12-21 10:02:31,286 INFO MyAppender - Execution query : truncate table all_todos
+2017-12-21 10:02:31,401 INFO MyAppender - connection is closing...
+
+2017-12-21 10:02:31,428 INFO MyAppender - Closed
+
+2017-12-21 10:02:31,439 INFO MyAppender - connection is starting...
+
+2017-12-21 10:02:31,445 INFO MyAppender - Connected
+
+2017-12-21 10:02:31,471 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,487 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,502 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,522 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,539 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,554 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,570 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,585 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,601 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,617 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,633 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,648 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,665 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,681 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,697 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,714 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,730 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,746 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,772 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,797 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,823 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,840 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,858 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,887 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,920 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,943 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,969 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:31,989 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,012 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,041 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,064 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,099 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,120 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,139 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,172 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,191 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,209 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,226 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,252 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,271 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,289 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,307 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,327 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,349 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,379 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,416 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,430 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,442 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,454 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,466 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,481 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,494 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,507 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,519 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,531 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,545 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,557 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,570 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,582 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,595 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,609 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,621 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,634 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,646 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,668 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,681 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,694 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,707 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,720 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,732 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,745 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,757 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,770 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,783 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,797 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,810 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,823 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,837 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,849 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,862 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,889 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,921 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,939 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,957 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:32,974 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,000 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,027 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,054 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,068 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,082 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,097 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,111 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,133 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,149 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,163 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,175 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,190 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,202 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,215 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,228 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,252 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,264 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,280 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,292 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,305 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,317 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,330 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,344 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,356 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,368 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,381 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,398 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,414 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,429 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,444 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,458 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,471 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,486 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,499 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,513 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,526 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,540 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,553 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,571 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,586 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,601 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,616 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,630 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,643 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,656 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,668 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,682 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,698 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,714 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,727 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,739 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,752 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,768 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,784 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,797 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,811 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,826 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,839 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,852 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,864 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,892 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,921 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,951 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,965 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:33,979 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,006 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,031 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,045 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,060 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,072 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,085 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,098 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,113 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,127 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,140 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,153 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,174 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,187 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,200 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,212 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,227 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,248 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,263 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,277 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,290 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,304 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,319 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,333 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,347 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,363 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,378 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,393 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,406 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,427 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,440 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,452 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,465 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,479 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,500 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,513 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,538 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,551 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,565 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,580 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,602 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,615 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,630 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,644 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,657 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,671 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,683 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,696 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,709 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,721 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,735 INFO MyAppender - Data has been added and commited
+2017-12-21 10:02:34,739 INFO MyAppender - connection is closing...
+
+2017-12-21 10:02:34,745 INFO MyAppender - Closed
+
+2017-12-21 10:02:37,168 INFO MyAppender - get To DO data
+2017-12-21 10:02:37,175 INFO MyAppender - connection is starting...
+
+2017-12-21 10:02:37,185 INFO MyAppender - Connected
+
+2017-12-21 10:02:37,197 INFO MyAppender - get Todo function started
+2017-12-21 10:02:37,206 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 10:02:37,227 INFO MyAppender - ordered successfully
+2017-12-21 10:02:37,235 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 10:02:37,240 INFO MyAppender - connection is closing...
+
+2017-12-21 10:02:37,249 INFO MyAppender - Closed
+
+2017-12-21 11:14:35,259 INFO MyAppender - get To DO data
+2017-12-21 11:14:35,269 INFO MyAppender - connection is starting...
+
+2017-12-21 11:14:35,280 INFO MyAppender - Connected
+
+2017-12-21 11:14:35,289 INFO MyAppender - get Todo function started
+2017-12-21 11:14:35,304 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 11:15:03,826 ERROR MyAppender - ORA-12570: Network Session: Unexpected packet read error
+2017-12-21 11:15:03,842 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   at OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[]& defineAccessors, Accessor[] bindAccessors, Boolean bHasReturningParams, SQLMetaData& sqlMetaData, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32& noOfRowsFetched, Int64& queryId, Int32 longFetchSize, Int64 initialLOBFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, DataUnmarshaller& dataUnmarshaller, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int64[]& rowsAffectedByArrayBind, Boolean bDefineDone, Boolean& bMoreThanOneRowAffectedByDmlWithRetClause, List`1& implicitRSList, Boolean bLOBArrayFetchRequired)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 176
+2017-12-21 11:15:03,854 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:03,867 INFO MyAppender - Closed
+
+2017-12-21 11:15:05,008 INFO MyAppender - get To DO data
+2017-12-21 11:15:05,034 INFO MyAppender - connection is starting...
+
+2017-12-21 11:15:05,178 INFO MyAppender - Connected
+
+2017-12-21 11:15:05,197 INFO MyAppender - get Todo function started
+2017-12-21 11:15:05,211 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 11:15:05,234 INFO MyAppender - ordered successfully
+2017-12-21 11:15:05,267 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 11:15:05,291 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:05,304 INFO MyAppender - Closed
+
+2017-12-21 11:15:30,565 INFO MyAppender - get To DO data
+2017-12-21 11:15:30,573 INFO MyAppender - connection is starting...
+
+2017-12-21 11:15:30,587 INFO MyAppender - Connected
+
+2017-12-21 11:15:30,607 INFO MyAppender - get Todo function started
+2017-12-21 11:15:30,631 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 11:15:30,645 INFO MyAppender - ordered successfully
+2017-12-21 11:15:30,658 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 11:15:30,674 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:30,686 INFO MyAppender - Closed
+
+2017-12-21 11:15:40,546 INFO MyAppender - connection is starting...
+
+2017-12-21 11:15:40,556 INFO MyAppender - Connected
+
+2017-12-21 11:15:40,570 INFO MyAppender - Execution query : truncate table all_todos
+2017-12-21 11:15:40,641 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:40,651 INFO MyAppender - Closed
+
+2017-12-21 11:15:40,659 INFO MyAppender - connection is starting...
+
+2017-12-21 11:15:40,668 INFO MyAppender - Connected
+
+2017-12-21 11:15:40,691 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,723 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,744 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,762 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,782 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,801 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,820 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,835 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,850 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,866 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,884 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,898 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,914 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,928 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,946 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,961 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,975 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:40,989 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,003 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,016 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,030 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,044 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,072 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,087 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,110 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,147 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,161 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,175 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,191 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,215 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,228 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,241 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,275 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,288 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,301 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,316 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,355 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,376 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,390 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,404 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,417 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,430 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,455 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,475 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,500 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,529 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,545 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,559 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,571 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,585 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,597 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,610 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,624 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,636 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,649 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,665 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,680 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,694 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,709 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,722 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,735 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,750 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,765 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,785 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,803 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,816 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,828 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,843 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,857 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,870 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,882 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,894 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,907 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,920 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,933 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,946 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,958 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,972 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,986 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:41,999 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,012 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,026 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,040 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,068 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,080 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,101 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,114 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,141 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,159 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,174 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,195 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,209 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,224 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,244 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,274 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,294 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,307 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,329 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,372 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,392 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,418 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,431 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,445 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,461 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,474 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,503 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,542 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,559 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,585 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,598 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,624 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,645 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,671 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,685 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,705 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,735 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,767 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,780 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,794 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,824 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,870 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,883 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,897 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,923 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,938 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,951 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,970 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:42,983 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,001 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,013 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,032 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,050 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,087 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,101 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,123 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,150 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,178 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,192 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,218 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,265 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,277 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,292 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,315 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,360 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,461 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,478 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,517 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,563 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,590 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,612 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,627 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,643 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,660 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,681 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,699 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,713 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,725 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,739 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,751 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,764 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,777 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,793 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,815 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,827 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,842 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,856 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,869 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,884 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,900 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,912 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,925 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,938 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,953 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,965 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,979 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:43,992 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,005 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,017 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,031 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,043 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,073 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,085 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,100 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,115 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,128 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,141 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,155 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,167 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,180 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,194 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,207 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,220 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,233 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,246 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,268 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,287 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,310 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,333 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,357 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,384 INFO MyAppender - Data has been added and commited
+2017-12-21 11:15:44,389 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:44,395 INFO MyAppender - Closed
+
+2017-12-21 11:15:58,563 INFO MyAppender - get To DO data
+2017-12-21 11:15:58,574 INFO MyAppender - connection is starting...
+
+2017-12-21 11:15:58,599 INFO MyAppender - Connected
+
+2017-12-21 11:15:58,609 INFO MyAppender - get Todo function started
+2017-12-21 11:15:58,638 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 11:15:58,673 INFO MyAppender - ordered successfully
+2017-12-21 11:15:58,683 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 11:15:58,692 INFO MyAppender - connection is closing...
+
+2017-12-21 11:15:58,703 INFO MyAppender - Closed
+
+2017-12-21 11:16:05,337 INFO MyAppender - connection is starting...
+
+2017-12-21 11:16:05,346 INFO MyAppender - Connected
+
+2017-12-21 11:16:05,362 INFO MyAppender - Execution query : truncate table all_todos
+2017-12-21 11:16:05,429 INFO MyAppender - connection is closing...
+
+2017-12-21 11:16:05,441 INFO MyAppender - Closed
+
+2017-12-21 11:16:05,458 INFO MyAppender - connection is starting...
+
+2017-12-21 11:16:05,463 INFO MyAppender - Connected
+
+2017-12-21 11:16:05,495 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,522 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,537 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,555 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,569 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,584 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,600 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,615 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,631 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,652 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,671 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,689 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,704 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,720 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,736 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,755 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,769 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,787 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,801 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,819 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,835 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,851 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,867 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,881 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,897 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,910 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,923 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,935 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,949 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,962 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,975 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:05,987 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,000 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,013 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,026 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,038 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,052 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,076 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,088 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,101 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,114 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,139 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,151 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,165 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,178 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,191 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,205 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,218 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,231 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,244 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,268 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,283 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,307 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,319 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,332 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,361 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,374 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,387 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,399 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,413 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,425 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,441 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,457 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,470 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,495 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,508 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,529 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,541 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,553 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,567 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,581 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,595 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,607 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,621 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,635 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,649 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,664 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,678 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,693 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,707 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,721 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,734 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,748 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,764 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,776 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,789 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,802 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,815 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,829 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,845 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,859 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,871 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,885 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,907 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,924 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,936 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,952 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,965 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,980 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:06,996 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,023 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,036 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,050 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,075 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,087 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,107 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,120 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,142 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,155 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,168 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,181 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,195 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,207 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,220 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,233 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,246 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,273 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,293 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,305 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,317 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,351 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,374 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,386 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,413 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,429 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,442 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,464 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,478 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,502 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,529 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,541 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,553 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,565 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,583 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,597 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,610 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,623 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,635 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,649 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,663 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,675 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,697 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,718 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,731 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,745 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,758 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,770 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,785 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,800 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,814 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,840 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,854 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,866 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,880 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,893 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,906 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,918 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,932 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,953 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,965 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,979 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:07,993 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,007 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,026 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,058 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,133 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,165 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,179 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,226 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,286 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,299 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,313 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,327 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,339 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,362 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,375 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,387 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,399 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,415 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,431 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,446 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,461 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,473 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,498 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,525 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,538 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,550 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,563 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,585 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,597 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,611 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,627 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,644 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,656 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,669 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,682 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,696 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,709 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,721 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,734 INFO MyAppender - Data has been added and commited
+2017-12-21 11:16:08,739 INFO MyAppender - connection is closing...
+
+2017-12-21 11:16:08,744 INFO MyAppender - Closed
+
+2017-12-21 11:16:10,647 INFO MyAppender - get To DO data
+2017-12-21 11:16:10,655 INFO MyAppender - connection is starting...
+
+2017-12-21 11:16:10,669 INFO MyAppender - Connected
+
+2017-12-21 11:16:10,684 INFO MyAppender - get Todo function started
+2017-12-21 11:16:10,694 INFO MyAppender - Query : select * from  all_todos
+2017-12-21 11:16:10,781 INFO MyAppender - ordered successfully
+2017-12-21 11:16:10,789 INFO MyAppender - ordered data[0].title : delectus aut autem
+2017-12-21 11:16:10,794 INFO MyAppender - connection is closing...
+
+2017-12-21 11:16:10,803 INFO MyAppender - Closed
+

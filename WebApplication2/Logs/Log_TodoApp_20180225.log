@@ -1,0 +1,64 @@
+2018-02-25 15:41:10,895 INFO MyAppender - get To DO data
+2018-02-25 15:41:11,006 INFO MyAppender - connection is starting...
+
+2018-02-25 15:41:26,504 ERROR MyAppender - Connection request timed out
+2018-02-25 15:41:26,510 ERROR MyAppender -    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, CriteriaCtx criteriaCtx)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at WebApplication2.Builder.openConnection() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 316
+2018-02-25 15:41:26,512 INFO MyAppender - get Todo function started
+2018-02-25 15:41:26,517 INFO MyAppender - Query : select * from  all_todos
+2018-02-25 15:41:26,552 ERROR MyAppender - Connection must be open for this operation
+2018-02-25 15:41:26,558 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleCommand.ValidateStatePriorToExecution()
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 195
+2018-02-25 15:42:43,036 INFO MyAppender - get To DO data
+2018-02-25 15:42:43,043 INFO MyAppender - connection is starting...
+
+2018-02-25 15:42:58,106 ERROR MyAppender - Connection request timed out
+2018-02-25 15:42:58,120 ERROR MyAppender -    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, CriteriaCtx criteriaCtx)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at WebApplication2.Builder.openConnection() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 316
+2018-02-25 15:42:58,130 INFO MyAppender - get Todo function started
+2018-02-25 15:42:58,143 INFO MyAppender - Query : select * from  all_todos
+2018-02-25 15:42:58,167 ERROR MyAppender - Connection must be open for this operation
+2018-02-25 15:42:58,172 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleCommand.ValidateStatePriorToExecution()
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 195
+2018-02-25 15:43:13,618 INFO MyAppender - get To DO data
+2018-02-25 15:43:13,627 INFO MyAppender - connection is starting...
+
+2018-02-25 15:43:28,704 ERROR MyAppender - Connection request timed out
+2018-02-25 15:43:28,714 ERROR MyAppender -    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, CriteriaCtx criteriaCtx)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at WebApplication2.Builder.openConnection() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 316
+2018-02-25 15:43:28,725 INFO MyAppender - get Todo function started
+2018-02-25 15:43:28,733 INFO MyAppender - Query : select * from  all_todos
+2018-02-25 15:43:28,756 ERROR MyAppender - Connection must be open for this operation
+2018-02-25 15:43:28,761 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleCommand.ValidateStatePriorToExecution()
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 195
+2018-02-25 15:43:56,219 INFO MyAppender - get To DO data
+2018-02-25 15:43:56,228 INFO MyAppender - connection is starting...
+
+2018-02-25 15:44:11,292 ERROR MyAppender - Connection request timed out
+2018-02-25 15:44:11,297 ERROR MyAppender -    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, CriteriaCtx criteriaCtx, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, CriteriaCtx criteriaCtx)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at WebApplication2.Builder.openConnection() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 316
+2018-02-25 15:44:11,303 INFO MyAppender - get Todo function started
+2018-02-25 15:44:11,312 INFO MyAppender - Query : select * from  all_todos
+2018-02-25 15:44:11,334 ERROR MyAppender - Connection must be open for this operation
+2018-02-25 15:44:11,340 ERROR MyAppender -    at Oracle.ManagedDataAccess.Client.OracleCommand.ValidateStatePriorToExecution()
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at WebApplication2.Builder.getTodo() in C:\Users\engin.yildirim\Documents\Visual Studio 2015\Projects\WebApplication2\WebApplication2\default.aspx.cs:line 195
